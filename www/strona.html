@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {
+width: 100%;
+text-align: center;
+}
+#wrapper {
+width: 770px;
+height: 300px;
+margin: 0 auto;
+background: #B9D3EE; // wype³nienie g³ównej czêœci strony
+}
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+</br></br><img src="logo1.png" alt="Logo" />
+<form name="input" action="html_form_action.asp" method="get">
+Meme name: <select name="cars">
+<option value="bp">Bitch Please</option>
+<option value="facepalm">Facepalm</option>
+<option value="pedobear">Pedobear</option>
+<option value="philosoraptor">Philosoraptor</option>
+<option value="choose" selected>Choose...</option>
+</select>
+Text: <input type="text" name="textOfMeme">
+<input type="submit" value="Find">
+</form>
+</div>
+
+<!-- po klikniêciu "Find", form-data bed¹ wys³ane do "html_form_action.asp" -->
+
+</body>
+</html>
