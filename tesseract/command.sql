@@ -1,0 +1,1 @@
+select 'link' from 'memes'
